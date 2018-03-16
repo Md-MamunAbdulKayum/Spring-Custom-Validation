@@ -1,13 +1,13 @@
 # Spring-Custom-Validation
 Here I come with a project on “Spring MVC Custom validation”. Let’s see what we got here:
 
-Author :
+## Author :
 Md Mamun Abdul Kayum
 
-Technologies :
+## Technologies :
        Spring MVC, Bootstrap 3.x
 
-Required dependency for custom validation purpose:
+## Required dependency for custom validation purpose:
 
        <dependency>
             <groupId>javax</groupId>
@@ -16,13 +16,13 @@ Required dependency for custom validation purpose:
             <scope>provided</scope>
         </dependency>
 
-Tested on Application Servers :
+## Tested on Application Servers :
 Tomcat 8, Glassfish 4
 
-Build Tool:
+## Build Tool:
 Maven
 
-Description:
+## Description:
  For achieving spring mvc custom validation:
  1. you have to add "form:errors" tad at the form input field like:
  ```
@@ -34,7 +34,7 @@ Description:
                     </div>
                 </div>
  ```             
- #Add this error tag to those fields you want to validate.
+## Add this error tag to those fields you want to validate.
  
  2. You must a propertise file(Say message.properties) which will contains your validation messages. In our case it is "messages.properties" file located at webapp/WEB-INF/i18n/messages.properties
  It contains our messages:
@@ -85,7 +85,8 @@ From here we are sending errors if a filed failed to a validation logic.
     }
     ```
     <br>
-#What we will got here:
+
+## What we will get here:
 ![addcustomer](https://user-images.githubusercontent.com/19667452/37484058-ac4af392-28b1-11e8-90ae-25f769082728.PNG)
 
 ![addproduct](https://user-images.githubusercontent.com/19667452/37484147-e1879402-28b1-11e8-883e-28f95615dadf.PNG)
